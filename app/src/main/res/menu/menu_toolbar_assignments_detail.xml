@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:textColor="@color/colorWhite">
+    <item
+        android:id="@+id/menuBack"
+        android:icon="@drawable/arrow_back"
+        android:title="Photos"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menuPhoto"
+        android:icon="@drawable/camera"
+        android:title="Photos"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menuDocuments"
+        android:icon="@drawable/pdf"
+        android:title="View Remarks History"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menuEmail"
+        android:icon="@drawable/share_social"
+        android:title="Send Email/SMS etc"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menuRemarks"
+        android:icon="@drawable/remarks"
+        android:title="View Remarks History"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menuAdd"
+        android:icon="@drawable/add"
+        android:title="Add New Assignment" />
+    <item
+        android:id="@+id/menuEdit"
+        android:icon="@drawable/edit"
+        android:title="Edit this Assignment" />
+    <item
+        android:id="@+id/menuDelete"
+        android:icon="@drawable/edit"
+        android:title="Delete this Assignment" />
+
+
+</menu>

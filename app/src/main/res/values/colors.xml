@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#257256</color>
+    <color name="colorPrimaryDark">#043D28</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite" >#fbfcfc</color>
+    <color name="colorBlack">#000000</color>
+    <color name="Black">#000000</color>
+    <color name="Blue" />
+    <item name="HeaderBackground" type="color">#f5f5f5</item>
+    <item name="HeaderFERRP" type="color">#257256</item>
+    <item name="HeaderGoP" type="color">#043D28</item>
+    <item name="LightSteelBlue" type="color">#B0C4DE</item>
+    <item name="ScreenBackground" type="color">#c5dfec</item>
+</resources>

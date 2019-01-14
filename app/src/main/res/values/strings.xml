@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Meeting Management</string>
+    <string name="powered_by_pcu_piu_p_dd"><![CDATA[Powered by PCU/PIU P&DD]]></string>
+    <string name="planning_and_development_department_govt_of_punjab">Planning and Development Department Govt. of Punjab</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="forget_password">Forget Password</string>
+    <string name="total_records">Total Records:</string>
+    <string name="surveyed_records">Surveyed Records:</string>
+    <string name="uploaded_records">Uploaded Records:</string>
+    <string name="pending_records">Pending Records:</string>
+    <string name="last_uploading_date">Last Uploading Date:</string>
+    <string name="upload">UPLOAD</string>
+    <string name="title_activity_upload_survey">UploadSurveyActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Back</string>
+    <string name="title_notifications">Forward</string>
+    <string name="location">Location:</string>
+    <string name="send">Send</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="phone_no">Phone:</string>
+    <string name="pleae_write_down_your_feedback_if_any">Please write down your feedback, if any</string>
+    <string name="lattitude">Latitude:</string>
+    <string name="owner_name">Name:</string>
+    <string name="search_assignment">Search Assignment..</string>
+    <string name="action_favorite">Favourite</string>
+    <string name="action_settings">Settings</string>
+    <string name="search">Search</string>
+</resources>

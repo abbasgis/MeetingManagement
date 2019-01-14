@@ -1,0 +1,40 @@
+3:12:25 PM: Executing task 'signingReport'...
+
+Executing tasks: [signingReport]
+
+Configuration on demand is an incubating feature.
+:app:signingReport
+Variant: debug
+Config: debug
+Store: C:\Users\Shakir\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: 47:88:61:35:90:85:02:EE:DF:9F:9A:D2:C8:1C:ED:7A
+SHA1: 68:09:70:50:AC:D4:6A:8A:91:44:B8:FD:C2:F5:B0:FB:4B:12:D4:A1
+Valid until: Monday, May 18, 2048
+----------
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\Shakir\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: 47:88:61:35:90:85:02:EE:DF:9F:9A:D2:C8:1C:ED:7A
+SHA1: 68:09:70:50:AC:D4:6A:8A:91:44:B8:FD:C2:F5:B0:FB:4B:12:D4:A1
+Valid until: Monday, May 18, 2048
+----------
+Variant: debugUnitTest
+Config: debug
+Store: C:\Users\Shakir\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: 47:88:61:35:90:85:02:EE:DF:9F:9A:D2:C8:1C:ED:7A
+SHA1: 68:09:70:50:AC:D4:6A:8A:91:44:B8:FD:C2:F5:B0:FB:4B:12:D4:A1
+Valid until: Monday, May 18, 2048
+----------
+Variant: release
+Config: none
+----------
+Variant: releaseUnitTest
+Config: none
+----------
+
+BUILD SUCCESSFUL in 0s
+1 actionable task: 1 executed
+3:12:27 PM: Task execution finished 'signingReport'.

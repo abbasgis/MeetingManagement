@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"--><!--android:layout_width="match_parent" android:layout_height="match_parent">-->
+
+<!--</RelativeLayout>-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:background="@color/HeaderGoP"
+    android:gravity="center">
+
+    <LinearLayout
+        android:id="@+id/llTitleBar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/HeaderBackground"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivTitleBarMainLeft"
+            android:layout_width="150dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:src="@drawable/pcupiu" />
+
+        <TextView
+            android:id="@+id/textViewtTitleFirstPage"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/planning_and_development_department_govt_of_punjab"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/HeaderGoP"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ivTitleBarMainRight"
+            android:layout_width="150dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:src="@drawable/punjablogo" />
+    </LinearLayout>
+
+</RelativeLayout>

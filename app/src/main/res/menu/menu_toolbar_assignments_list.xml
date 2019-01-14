@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:textColor="@color/colorWhite">
+    <!--<item-->
+        <!--android:id="@+id/menuAdd"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:icon="@drawable/add"-->
+        <!--android:title="Add New Assignment"-->
+        <!--app:showAsAction="always" />-->
+    <item
+        android:id="@+id/menuImportant"
+        android:title="Important" />
+
+    <item
+        android:id="@+id/menuShort"
+        android:title="Short-term" />
+
+    <item
+        android:id="@+id/menuLong"
+        android:title="Long-term" />
+
+</menu>
