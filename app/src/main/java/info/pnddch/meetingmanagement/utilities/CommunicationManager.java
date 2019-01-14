@@ -14,7 +14,6 @@ import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 
 
-import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -29,8 +28,8 @@ public class CommunicationManager {
 //        String host = "http://192.168.8.101:52";
     String host = "http://pnddch.info";
 
-    class C05321 implements Listener<String> {
-        C05321() {
+    class CMListener implements Listener<String> {
+        CMListener() {
         }
 
         public void onResponse(String response) {
@@ -42,8 +41,8 @@ public class CommunicationManager {
         }
     }
 
-    class C05332 implements ErrorListener {
-        C05332() {
+    class CMErrorListener implements ErrorListener {
+        CMErrorListener() {
         }
 
         public void onErrorResponse(VolleyError error) {
@@ -56,8 +55,8 @@ public class CommunicationManager {
         }
     }
 
-    class C05343 implements RetryPolicy {
-        C05343() {
+    class CMRetryPolicy implements RetryPolicy {
+        CMRetryPolicy() {
         }
 
         public int getCurrentTimeout() {
@@ -95,8 +94,8 @@ public class CommunicationManager {
     public void getRequest(String url) {
         RequestQueue queue = Volley.newRequestQueue(this.activity.getApplicationContext());
         String hostURL = getHostURL(this.activity);
-        StringRequest stringRequest = new StringRequest(0, "http://pnddch.info/mm" + "/" + url, new C05321(), new C05332());
-        stringRequest.setRetryPolicy(new C05343());
+        StringRequest stringRequest = new StringRequest(0, "http://pnddch.info/mm" + "/" + url, new CMListener(), new CMErrorListener());
+        stringRequest.setRetryPolicy(new CMRetryPolicy());
         queue.add(stringRequest);
     }
 
